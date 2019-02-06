@@ -1,0 +1,17 @@
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules
+
+# npm package lock
+package-lock.json
+yarn.lock
+
+# Project files
+.github
+.gitignore
+test
+typings
+typings.json
+tsconfig.json

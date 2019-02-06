@@ -1,0 +1,31 @@
+{
+  "name": "typedoc-plugin-shortcuts-js",
+  "version": "0.1.0",
+  "description": "TypeDoc plugin for Shortcuts JS",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "push": "tsc && cp plugin.js ../shortcuts-js/node_modules/typedoc-plugin-shortcuts-js/plugin.js",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xAlien95/typedoc-plugin-shortcuts-js.git"
+  },
+  "keywords": [
+    "typedocplugin",
+    "typedoc"
+  ],
+  "author": {
+    "name": "Stefano De Carolis",
+    "url": "https://github.com/xAlien95"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "typedoc": ">=0.14 <1.0"
+  },
+  "devDependencies": {
+    "typedoc": "^0.14.2",
+    "typescript": "^3.3.1"
+  }
+}
