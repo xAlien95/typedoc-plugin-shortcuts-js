@@ -25,7 +25,7 @@
     "typedoc": ">=0.14 <1.0"
   },
   "devDependencies": {
-    "typedoc": "^0.14.2",
+    "typedoc": "^0.15.6",
     "typescript": "^3.3.1"
   }
 }
